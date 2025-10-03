@@ -7,7 +7,9 @@
 
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=HeadstockSans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Sarala:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -15,14 +17,17 @@
 <body class="relative min-h-screen min-w-screen flex flex-col justify-center bg-gradient-to-b from-[#50393A] to-[#E59497] text-[#F9F9F9] bg-cover bg-no-repeat">
     <div class="min-h-screen flex flex-col items-center justify-center">
 
-        <header class="w-full bg-gradient-to-b from-[#7F5254] to-[#E59497] shadow-[#E59497]">
+        <header class="w-full bg-gradient-to-b from-[#7F5254] to-[#E59497] shadow-[#E59497] w-[27.5rem] h-[15.4rem]">
             <div class="flex items-center justify-center gap-[6px]">
                 <img src ='./assets/raquel-foto-de-perfil.svg' alt="Foto de Perfil"
-                class="w-[13.43rem] h-[12.87rem] mt-[0.5rem]            sm:w-[14.5rem] sm:h-[13.5rem] sm:mt-[0.75rem]           md:w-[16rem] md:h-[15rem] md:mt-[1rem] lg:w-[18rem]     lg:h-[17rem] lg:mt-[1.25rem]">
+                class="w-[13.5rem] h-[18.1rem] mt-[0.5rem]            
+                sm:w-[14rem] sm:h-[13.5rem] sm:mt-[1rem]           
+                md:w-[15rem] md:h-[13.6rem] md:mt-[1rem] 
+                lg:w-[16.5rem] lg:h-[13.5rem] lg:mb-[3rem]">
                 <div class="flex flex-col items-center justify-center">
                     <img src="./assets/Logotipo-Raquel.svg" class="mt-[2rem] h-[6rem] md:h-[9rem] 2xl:h-[12rem]">
                     <a href="https://w.app/f59ivy" target="_blank" class="link">
-                        <button class="flex items-center justify-center font-[HeadstockSans] font-bold text-xs text-white mb-[3rem] md:-mt-10 2xl:-mt-7 2xl:text-base">
+                        <button class="flex items-center justify-center font-[Fahkwang] font-extralight text-xs text-white mb-[3rem] sm:text-sm sm:mb-[4rem] md:text-base md:mb-[5rem]">
                         CLIQUE PARA CONHECER
                         </button>
                     </a>
@@ -30,15 +35,16 @@
             </div>
         </header>
 
-        <section class="flex flex-col justify-center items-center mt-[3rem] md:mt-[8rem] xl:mt-[6rem] 2xl:mt-[7rem] gap-5 overflow-hidden">
+        <section class="flex flex-col justify-center items-center 
+        mt-[1rem] sm:mt-[13.5rem] md:mt-[2rem] gap-5 overflow-hidden">
 
-            <p class="flex items-center justify-center font-[HeadstockSans] font-medium text-center block md:hidden">
+            <p class="flex items-center justify-center font-[Fahkwang] font-medium text-center block md:hidden">
                 Mais que advocacia, compromisso <br>
                 em cada detalhe na jornada jurídica <br>
                 de transformar vidas.
             </p>
 
-            <p class="hidden md:flex items-center justify-center font-[HeadstockSans] font-medium text-center text-lg">
+            <p class="hidden md:flex items-center justify-center font-[Fahkwang] font-medium text-center text-lg">
                 Mais que advocacia, compromisso
                 em cada detalhe na jornada jurídica
                 de transformar vidas.
@@ -52,14 +58,21 @@
                     <div class="flex justify-around">
                         <div class="items-center">
                             <div class="flex ml-5">
-                                <h1 class="text-3xl text-[#FED980] font-[HeadstockSans] font-bold -ml-5">AGENDE</h1>
-                                <p class="font-[HeadstockSans] font-semibold self-end">SEU</p>
+                                <h1 class="text-3xl text-[#FED980] font-[Fahkwang] font-bold -ml-5">AGENDE</h1>
+
+                                <p class="font-[Fahkwang] font-semibold self-end">SEU</p>
+
                             </div>
-                            <h1 class="font-[HeadstockSans] text-2xl font-bold ml-2">ATENDIMENTO</h1>
+
+                            <h1 class="font-[Fahkwang] text-2xl font-bold ml-2">ATENDIMENTO</h1>
+
                             <div class="flex flex-row items-center px-4 mt-2">
                                 <div>
-                                    <p class="font-[HeadstockSans] font-bold text-xs">CLIQUE AQUI</p>
-                                    <p class="font-[HeadstockSans] font-bold text-xs">PENEDO-AL</p>
+
+                                    <p class="font-[Fahkwang] font-bold text-xs">CLIQUE AQUI</p>
+
+                                    <p class="font-[Fahkwang] font-bold text-xs">PENEDO-AL</p>
+
                                 </div>
                                 <div class="flex items-center justify-center">
                                     <img src="./assets/WhatsApp.svg" class="ml-5">
@@ -84,14 +97,22 @@
                     <div class="flex justify-around">
                         <div class="items-center">
                             <div class="flex ml-5">
-                                <h1 class="text-3xl text-[#FED980] font-[HeadstockSans] font-bold -ml-5">AGENDE</h1>
-                                <p class="font-[HeadstockSans] font-semibold self-end">SEU</p>
+
+                                <h1 class="text-3xl text-[#FED980] font-[Fahkwang] font-bold -ml-5">AGENDE</h1>
+
+                                <p class="font-[Fahkwang] font-semibold self-end">SEU</p>
+
                             </div>
-                            <h1 class="font-[HeadstockSans] text-2xl font-bold ml-2">ATENDIMENTO</h1>
+
+                            <h1 class="font-[Fahkwang] text-2xl font-bold ml-2">ATENDIMENTO</h1>
+
                             <div class="flex flex-row items-center px-4 mt-2">
                                 <div>
-                                    <p class="font-[HeadstockSans] font-bold text-xs">CLIQUE AQUI</p>
-                                    <p class="font-[HeadstockSans] font-bold text-xs">PROPRIÁ-SE</p>
+
+                                    <p class="font-[Fahkwang] font-bold text-xs">CLIQUE AQUI</p>
+
+                                    <p class="font-[Fahkwang] font-bold text-xs">PROPRIÁ-SE</p>
+
                                 </div>
                                 <div class="flex items-center justify-center">
                                     <img src="./assets/WhatsApp.svg" class="ml-5">
@@ -123,14 +144,18 @@
                         lg:w-[8rem] lg:h-[11rem] lg:ml-[1rem]">
                         </div>
                         <div class="flex flex-col -ml-4">
-                            <h1 class="font-[HeadstockSans] text-3xl font-bold -ml-[9rem] text-[#FED980]">NOSSA</h1>
-                            <h1 class="font-[HeadstockSans] text-2xl font-semibold -ml-[2rem]">LOCALIZAÇÃO</h1>
+
+                            <h1 class="font-[Fahkwang] text-3xl font-bold -ml-[9rem] text-[#FED980]">NOSSA</h1>
+
+                            <h1 class="font-[Fahkwang] text-2xl font-semibold -ml-[2rem]">LOCALIZAÇÃO</h1>
                             <div class="mt-5">
-                                <p class="font-[HeadstockSans] text-xs font-bold">CLIQUE AQUI PARA CHEGAR</p>
+
+                                <p class="font-[Fahkwang] text-xs font-bold">CLIQUE AQUI PARA CHEGAR</p>
+
                             </div>
                         </div>
                         <div>
-                            <p class="mt-5 font-[HeadstockSans]">PENEDO AL</p>
+                            <p class="mt-5 font-[Fahkwang]">PENEDO AL</p>
                             <img src="./assets/Logotipo-Raquel.svg" class="absolute h-20 w-25">
                         </div>
                     </div>
@@ -145,13 +170,13 @@
                 sm:h-[9rem] sm:w-[24rem] sm:ml-6 sm:mr-6 md:h-[10rem] md:w-[26rem] md:ml-8 md:mr-8 lg:h-[11rem] lg:w-[28rem] lg:ml-10 lg:mr-10">
                     <div class="flex justify-around">
                         <div>
-                            <h1 class="font-[HeadstockSans] text-3xl font-bold text-[#FED980] -ml-[6rem]">NOSSA</h1>
-                            <h1 class="font-[HeadstockSans] text-2xl font-semibold ml-3">LOCALIZAÇÃO</h1>
-                            <p class="font-[HeadstockSans] text-xs mt-3 font-bold">CLIQUE AQUI PARA CHEGAR</p>
+                            <h1 class="font-[Fahkwang] text-3xl font-bold text-[#FED980] -ml-[6rem]">NOSSA</h1>
+                            <h1 class="font-[Fahkwang] text-2xl font-semibold ml-3">LOCALIZAÇÃO</h1>
+                            <p class="font-[Fahkwang] text-xs mt-3 font-bold">CLIQUE AQUI PARA CHEGAR</p>
                         </div>
                         <div class="flex justify-around">
                             <div>
-                                <p class="font-[HeadstockSans] absolute mt-5">PROPRIÁ-SE</p>
+                                <p class="font-[Fahkwang] absolute mt-5">PROPRIÁ-SE</p>
                                 <img src="./assets/Logotipo-Raquel.svg" class="h-20 w-25 -mr-[2rem] mt-12 absolute">
                             </div>
                             <div>
@@ -169,15 +194,15 @@
             <!---Botões e email-->
             <div class="flex justify-center items-center gap-5 mt-5">
                 <!--Tiktok-->
-                <a href="" target="_blank">
+                <a href="https://www.tiktok.com/@raquelpaulina.adv" target="_blank">
                     <img src="assets/TikTok.svg" />
                 </a>
                 <!--Instagram-->
-                <a href="" target="_blank">
+                <a href="https://www.instagram.com/raquelpaulina.adv/" target="_blank">
                     <img src="assets/Instagram.svg" />
                 </a>
                 <!--Email-->
-                <a href="mailto:raquelpaulinaadv@gmail.com">
+                <a href="mailto:raquelpaulinaadv@gmail.com" class="font-[Fahkwang]" target="_blank">
                     <p>
                         Email: Raquelpaulinaadv@gmail.com
                     </p>
