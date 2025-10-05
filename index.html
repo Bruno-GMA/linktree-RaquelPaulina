@@ -15,206 +15,241 @@
 
 
 <body class="relative min-h-screen min-w-screen flex flex-col justify-center bg-gradient-to-b from-[#50393A] to-[#E59497] text-[#F9F9F9] bg-cover bg-no-repeat">
-    <div class="min-h-screen flex flex-col items-center justify-center">
+    <div class="min-h-screen xl:bg-[url('./assets/logo-lateral.svg')] xl:bg-repeat-y xl:bg-left xl:bg-fixed">
+        <div class="min-h-screen xl:bg-[url('./assets/logo-lateral.svg')] xl:bg-repeat-y xl:bg-right xl:bg-fixed">
+            <div class="min-h-screen flex flex-col items-center justify-center">
 
-        <header class="w-full bg-gradient-to-b from-[#7F5254] to-[#E59497] shadow-[#E59497] w-[27.5rem] h-[15.4rem]">
-            <div class="flex items-center justify-center gap-[6px]">
-                <img src ='./assets/raquel-foto-de-perfil.svg' alt="Foto de Perfil"
-                class="w-[13.5rem] h-[18.1rem] mt-[0.5rem]            
-                sm:w-[14rem] sm:h-[13.5rem] sm:mt-[1rem]           
-                md:w-[15rem] md:h-[13.6rem] md:mt-[1rem] 
-                lg:w-[16.5rem] lg:h-[13.5rem] lg:mb-[3rem]">
-                <div class="flex flex-col items-center justify-center">
-                    <img src="./assets/Logotipo-Raquel.svg" class="mt-[2rem] h-[6rem] md:h-[9rem] 2xl:h-[12rem]">
+                <header class="w-full h-full bg-gradient-to-b from-[#7F5254] to-[#E59497] shadow-[#E59497] w-[27.5rem] h-[15.4rem]
+                lg:w-[60rem] lg:mt-[4rem] lg:rounded-xl lg:shadow-md lg:shadow-[#E59497]
+                2xl:w-[75rem]">
+                    <div class="flex items-center justify-center gap-[6px]">
+                        <!--Logo desktop-->
+                        <img src="./assets/Logotipo-Raquel.svg" class="hidden lg:block h-[15rem] mt-[2rem]">
+
+                        <img src ='./assets/raquel-foto-de-perfil.svg' alt="Foto de Perfil"
+                        class="w-[13.5rem] h-[18.1rem] mt-[0.5rem]
+                        sm:w-[14rem] sm:h-[13.5rem] sm:mt-[1rem]
+                        md:w-[15rem] md:h-[13.6rem] md:mt-[1rem]
+                        lg:w-[16.5rem] lg:h-[13.5rem] lg:mb-[3rem]">
+                        <div class="flex flex-col items-center justify-center">
+                            <img src="./assets/Logotipo-Raquel.svg" class="mt-[2rem] h-[6rem] md:h-[9rem] lg:hidden">
+                            <a href="https://w.app/f59ivy" target="_blank" class="link">
+                                <button class="flex items-center justify-center font-[Fahkwang] font-medium text-xs text-white mb-[3rem]
+                                sm:text-sm sm:mb-[4rem]
+                                md:text-base md:mb-[5rem]
+                                lg:hidden">
+                                CLIQUE PARA CONHECER
+                                </button>
+                            </a>
+                        </div>
+                        <!--Texto Desktop-->
+                        <p class="hidden 2xl:hidden lg:block font-[Fahkwang] font-medium text-medium font-semibold mt-[2rem] ml-[1rem]">
+                            Mais Que Advocacia, Compromisso Em Cada
+                            Detalhe Na Jornada Jurídica De Transformar <br> Vidas.
+
+                        </p>
+                        <!--Texto 2xl-->
+                        <p class="hidden 2xl:block font-[Fahkwang] font-medium text-medium font-semibold mt-[2rem] ml-[1rem]">
+                            Mais Que Advocacia, Compromisso Em Cada <br>
+                            Detalhe Na Jornada Jurídica De Transformar <br> Vidas.
+
+                        </p>
+                    </div>
+                </header>
+
+                <section class="flex flex-col justify-center items-center
+                mt-[1rem]
+                md:mt-[2rem]
+                lg:grid lg:grid-cols-2 lg:place-items-center
+                gap-5 overflow-hidden">
+
+                    <p class="flex items-center justify-center font-[Fahkwang] font-medium text-center block md:hidden lg:hidden">
+                        Mais que advocacia, compromisso <br>
+                        em cada detalhe na jornada jurídica <br>
+                        de transformar vidas.
+                    </p>
+
+                    <p class="hidden md:flex items-center justify-center font-[Fahkwang] font-medium text-center text-lg lg:hidden">
+                        Mais que advocacia, compromisso
+                        em cada detalhe na jornada jurídica
+                        de transformar vidas.
+                    </p>
+
+
+                    <!--WhatsApp PENEDO-->
                     <a href="https://w.app/f59ivy" target="_blank" class="link">
-                        <button class="flex items-center justify-center font-[Fahkwang] font-extralight text-xs text-white mb-[3rem] sm:text-sm sm:mb-[4rem] md:text-base md:mb-[5rem]">
-                        CLIQUE PARA CONHECER
+                        <button class="bg-gradient-to-b from-[#C17D80] to-[#724C4E] hover:from-[#D99A9D] hover:to-[#8C5E60] shadow-lg rounded-lg h-[8.4rem] w-[22rem] ml-4 mr-4
+                        sm:h-[9rem] sm:w-[24rem] sm:ml-6 sm:mr-6 md:h-[10rem] md:w-[26rem] md:ml-8 md:mr-8 lg:h-[11rem] lg:w-[28rem] lg:ml-10 lg:mr-10">
+                            <div class="flex justify-around">
+                                <div class="items-center">
+                                    <div class="flex ml-5">
+                                        <h1 class="text-3xl text-[#FED980] font-[Fahkwang] font-bold -ml-[1rem]">AGENDE</h1>
+
+                                        <p class="font-[Fahkwang] font-semibold self-end">SEU</p>
+
+                                    </div>
+
+                                    <h1 class="font-[Fahkwang] text-2xl font-bold ml-2">ATENDIMENTO</h1>
+
+                                    <div class="flex flex-row items-center px-4 mt-2">
+                                        <div>
+
+                                            <p class="font-[Fahkwang] font-bold text-xs">CLIQUE AQUI</p>
+
+                                            <p class="font-[Fahkwang] font-bold text-xs">PENEDO-AL</p>
+
+                                        </div>
+                                        <div class="flex items-center justify-center">
+                                            <img src="./assets/WhatsApp.svg" class="ml-5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./assets/Logotipo-Raquel.svg" class="absolute h-20 w-25 mr-[5rem] -mt-[0.3rem]
+                                    lg:mt-[0.5rem] lg:h-[6rem]">
+                                </div>
+                                    <img src="./assets/raquel-botao-whatsapp-penedo.svg"    class="w-[7rem] h-[8.6rem] ml-[2rem]
+                                    sm:w-[8rem] sm:h-[9rem] sm:ml-[0.5rem]
+                                    md:w-[9rem] md:h-[10.1rem] md:ml-[0.75rem]
+                                    lg:w-[10rem] lg:h-[11.1rem] lg:ml-[4rem]">
+                            </div>
                         </button>
                     </a>
+
+                    <!--WhatsApp PROPRIÁ-->
+                    <a href="https://w.app/igbldo" target="_blank" class="link">
+                        <button class="bg-gradient-to-b from-[#C17D80] to-[#724C4E] hover:from-[#D99A9D] hover:to-[#8C5E60] shadow-lg rounded-lg h-[8.4rem] w-[22rem] ml-4 mr-4
+                        sm:h-[9rem] sm:w-[24rem] sm:ml-6 sm:mr-6
+                        md:h-[10rem] md:w-[26rem] md:ml-8 md:mr-8
+                        lg:h-[11rem] lg:w-[28rem] lg:ml-10 lg:mr-10">
+                            <div class="flex justify-around">
+                                <div class="items-center">
+                                    <div class="flex ml-5">
+
+                                        <h1 class="text-3xl text-[#FED980] font-[Fahkwang] font-bold -ml-[1rem]">AGENDE</h1>
+
+                                        <p class="font-[Fahkwang] font-semibold self-end">SEU</p>
+
+                                    </div>
+
+                                    <h1 class="font-[Fahkwang] text-2xl font-bold ml-2">ATENDIMENTO</h1>
+
+                                    <div class="flex flex-row items-center px-4 mt-2">
+                                        <div>
+
+                                            <p class="font-[Fahkwang] font-bold text-xs">CLIQUE AQUI</p>
+
+                                            <p class="font-[Fahkwang] font-bold text-xs">PROPRIÁ-SE</p>
+
+                                        </div>
+                                        <div class="flex items-center justify-center">
+                                            <img src="./assets/WhatsApp.svg" class="ml-5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./assets/Logotipo-Raquel.svg" class="absolute h-20 w-25 -ml-[3rem] mt-[4rem]
+                                    lg:mt-[0.5rem] lg:h-[6rem] lg:-ml-[1rem]">
+                                </div>
+                                <img src="./assets/raquel-botao-whatsapp-propria.svg"
+                                class="w-[6rem] h-[8.4rem] ml-[3rem]
+                                sm:w-[6.5rem] sm:h-[9rem] sm:ml-[2.5rem]
+                                md:w-[7rem] md:h-[10rem] md:ml-[3.5rem]
+                                lg:w-[7.5rem] lg:h-[11rem] lg:ml-[4rem]">
+                            </div>
+                        </button>
+                    </a>
+
+
+                    <!--Localização PENEDO-->
+                    <a href="https://maps.app.goo.gl/rDQ9M6P3wDcQLMEJ6" target="_blank" class="link">
+                        <button class="w-355 bg-gradient-to-b from-[#C17D80] to-[#724C4E] hover:from-[#D99A9D] hover:to-[#8C5E60] shadow-lg rounded-lg h-[8.4rem] w-[22rem] ml-4 mr-4
+                        sm:h-[9rem] sm:w-[24rem] sm:ml-6 sm:mr-6 md:h-[10rem]
+                        md:w-[26rem] md:ml-8 md:mr-8
+                        lg:h-[11rem] lg:w-[28rem] lg:ml-10 lg:mr-10">
+                            <div class="flex justify-around">
+                                <div>
+                                <img src="./assets/raquel-botao-localizacao-penedo.svg"
+                                class="w-[6rem] h-[8.5rem]
+                                sm:w-[7rem] sm:h-[9rem] sm:ml-[0.5rem]
+                                md:w-[7.5rem] md:h-[10rem] md:ml-[0.75rem]
+                                lg:w-[8rem] lg:h-[11rem] lg:-ml-[1rem]">
+                                </div>
+                                <div class="flex flex-col -ml-4
+                                lg:-ml-12">
+
+                                    <h1 class="font-[Fahkwang] text-3xl font-bold -ml-[6rem] text-[#FED980]">NOSSA</h1>
+
+                                    <h1 class="font-[Fahkwang] text-2xl font-semibold -ml-[0.5rem]">LOCALIZAÇÃO</h1>
+                                    <div class="mt-5">
+
+                                        <p class="font-[Fahkwang] text-xs font-bold">CLIQUE AQUI PARA CHEGAR</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="mt-5 font-[Fahkwang] lg:hidden">PENEDO AL</p>
+                                    <p class="hidden lg:block mt-5 font-[Fahkwang]">PENEDO-AL</p>
+                                    <img src="./assets/Logotipo-Raquel.svg" class="absolute h-20 w-25">
+                                </div>
+                            </div>
+
+                        </button>
+                    </a>
+
+
+                    <!--Localização PROPRIÁ-->
+                    <a href="https://maps.app.goo.gl/h5vckKFQfZZTkDvy6" target="_blank" class="link">
+                        <button class="bg-gradient-to-b from-[#C17D80] to-[#724C4E] hover:from-[#D99A9D] hover:to-[#8C5E60] shadow-lg rounded-lg h-[8.4rem] w-[22rem] ml-4 mr-4
+                        sm:h-[9rem] sm:w-[24rem] sm:ml-6 sm:mr-6
+                        md:h-[10rem] md:w-[26rem] md:ml-8 md:mr-8
+                        lg:h-[11rem] lg:w-[28rem] lg:ml-10 lg:mr-10">
+                            <div class="flex justify-around">
+                                <div>
+                                    <h1 class="font-[Fahkwang] text-3xl font-bold text-[#FED980] -ml-[4.4rem]">NOSSA</h1>
+                                    <h1 class="font-[Fahkwang] text-2xl font-semibold ml-3">LOCALIZAÇÃO</h1>
+                                    <p class="font-[Fahkwang] text-xs mt-3 font-bold">CLIQUE AQUI PARA CHEGAR</p>
+                                </div>
+                                <div class="flex justify-around lg:justify-end">
+                                    <div class="lg:ml-10">
+                                        <p class="font-[Fahkwang] absolute mt-5 -ml-[1rem]">PROPRIÁ-SE</p>
+                                        <img src="./assets/Logotipo-Raquel.svg" class="h-20 w-25 -mr-[2rem] mt-12 absolute">
+                                    </div>
+                                    <div>
+                                        <img src="./assets/raquel-botao-localizacao-propria.svg" class="w-[7.5rem] h-[8rem] ml-[3rem]
+                                        sm:w-[8rem] sm:h-[9.5rem] sm:ml-[4rem]
+                                        md:w-[8.5rem] md:h-[10rem] md:ml-[5rem]
+                                        lg:w-[9rem] lg:h-[11rem] lg:ml-[3rem]">
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </a>
+                </section>
+                <!---Botões e email-->
+                <div class="flex justify-center items-center gap-2 mt-5 ml-2 overflow-hidden">
+                    <!--Tiktok-->
+                    <a href="https://www.tiktok.com/@raquelpaulina.adv" target="_blank">
+                        <img src="assets/TikTok.svg" />
+                    </a>
+                    <!--Instagram-->
+                    <a href="https://www.instagram.com/raquelpaulina.adv/" target="_blank">
+                        <img src="assets/Instagram.svg" />
+                    </a>
+                    <!--Email-->
+                    <a href="mailto:raquelpaulinaadv@gmail.com" class="font-[Fahkwang]" target="_blank">
+                        <p>
+                            Email: Raquelpaulinaadv@gmail.com
+                        </p>
+                    </a>
                 </div>
+
+                <footer class="flex justify-center items-center mt-[2rem]">
+                    <img src="./assets/Logotipo-rp.svg" class="h-[6rem] md:h-[10rem]">
+                </footer>
+
             </div>
-        </header>
-
-        <section class="flex flex-col justify-center items-center 
-        mt-[1rem] sm:mt-[13.5rem] md:mt-[2rem] gap-5 overflow-hidden">
-
-            <p class="flex items-center justify-center font-[Fahkwang] font-medium text-center block md:hidden">
-                Mais que advocacia, compromisso <br>
-                em cada detalhe na jornada jurídica <br>
-                de transformar vidas.
-            </p>
-
-            <p class="hidden md:flex items-center justify-center font-[Fahkwang] font-medium text-center text-lg">
-                Mais que advocacia, compromisso
-                em cada detalhe na jornada jurídica
-                de transformar vidas.
-            </p>
-
-
-            <!--WhatsApp PENEDO-->
-            <a href="https://w.app/f59ivy" target="_blank" class="link">
-                <button class="bg-gradient-to-b from-[#C17D80] to-[#724C4E] hover:from-[#D99A9D] hover:to-[#8C5E60] shadow-lg rounded-lg h-[8.4rem] w-[22rem] ml-4 mr-4
-                sm:h-[9rem] sm:w-[24rem] sm:ml-6 sm:mr-6 md:h-[10rem] md:w-[26rem] md:ml-8 md:mr-8 lg:h-[11rem] lg:w-[28rem] lg:ml-10 lg:mr-10">
-                    <div class="flex justify-around">
-                        <div class="items-center">
-                            <div class="flex ml-5">
-                                <h1 class="text-3xl text-[#FED980] font-[Fahkwang] font-bold -ml-5">AGENDE</h1>
-
-                                <p class="font-[Fahkwang] font-semibold self-end">SEU</p>
-
-                            </div>
-
-                            <h1 class="font-[Fahkwang] text-2xl font-bold ml-2">ATENDIMENTO</h1>
-
-                            <div class="flex flex-row items-center px-4 mt-2">
-                                <div>
-
-                                    <p class="font-[Fahkwang] font-bold text-xs">CLIQUE AQUI</p>
-
-                                    <p class="font-[Fahkwang] font-bold text-xs">PENEDO-AL</p>
-
-                                </div>
-                                <div class="flex items-center justify-center">
-                                    <img src="./assets/WhatsApp.svg" class="ml-5">
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <img src="./assets/Logotipo-Raquel.svg" class="absolute h-20 w-25 mr-[5rem] -mt-[0.3rem]">
-                        </div>
-                            <img src="./assets/raquel-botao-whatsapp-penedo.svg"    class="w-[7rem] h-[8.6rem] ml-[2rem]
-                            sm:w-[8rem] sm:h-[9rem] sm:ml-[0.5rem]
-                            md:w-[9rem] md:h-[10.1rem] md:ml-[0.75rem]
-                            lg:w-[10rem] lg:h-[11.1rem] lg:ml-[1rem]">
-                    </div>
-                </button>
-            </a>
-
-            <!--WhatsApp PROPRIÁ-->
-            <a href="https://w.app/igbldo" target="_blank" class="link">
-                <button class="bg-gradient-to-b from-[#C17D80] to-[#724C4E] hover:from-[#D99A9D] hover:to-[#8C5E60] shadow-lg rounded-lg h-[8.4rem] w-[22rem] ml-4 mr-4
-                sm:h-[9rem] sm:w-[24rem] sm:ml-6 sm:mr-6 md:h-[10rem] md:w-[26rem] md:ml-8 md:mr-8 lg:h-[11rem] lg:w-[28rem] lg:ml-10 lg:mr-10">
-                    <div class="flex justify-around">
-                        <div class="items-center">
-                            <div class="flex ml-5">
-
-                                <h1 class="text-3xl text-[#FED980] font-[Fahkwang] font-bold -ml-5">AGENDE</h1>
-
-                                <p class="font-[Fahkwang] font-semibold self-end">SEU</p>
-
-                            </div>
-
-                            <h1 class="font-[Fahkwang] text-2xl font-bold ml-2">ATENDIMENTO</h1>
-
-                            <div class="flex flex-row items-center px-4 mt-2">
-                                <div>
-
-                                    <p class="font-[Fahkwang] font-bold text-xs">CLIQUE AQUI</p>
-
-                                    <p class="font-[Fahkwang] font-bold text-xs">PROPRIÁ-SE</p>
-
-                                </div>
-                                <div class="flex items-center justify-center">
-                                    <img src="./assets/WhatsApp.svg" class="ml-5">
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <img src="./assets/Logotipo-Raquel.svg" class="absolute h-20 w-25 -ml-[1rem] -mt-[0.5rem]">
-                        </div>
-                        <img src="./assets/raquel-botao-whatsapp-propria.svg"
-                        class="w-[6rem] h-[8.4rem] ml-[2rem]
-                        sm:w-[6.5rem] sm:h-[9rem] sm:ml-[2.5rem]
-                        md:w-[7rem] md:h-[10rem] md:ml-[3.5rem]
-                        lg:w-[7.5rem] lg:h-[11rem] lg:ml-[4rem]">
-                    </div>
-                </button>
-            </a>
-
-
-            <!--Localização PENEDO-->
-            <a href="https://maps.app.goo.gl/rDQ9M6P3wDcQLMEJ6" target="_blank" class="link">
-                <button class="w-355 bg-gradient-to-b from-[#C17D80] to-[#724C4E] hover:from-[#D99A9D] hover:to-[#8C5E60] shadow-lg rounded-lg h-[8.4rem] w-[22rem] ml-4 mr-4
-                sm:h-[9rem] sm:w-[24rem] sm:ml-6 sm:mr-6 md:h-[10rem] md:w-[26rem] md:ml-8 md:mr-8 lg:h-[11rem] lg:w-[28rem] lg:ml-10 lg:mr-10">
-                    <div class="flex justify-around">
-                        <div class="">
-                        <img src="./assets/raquel-botao-localizacao-penedo.svg"     class="w-[6rem] h-[8.5rem]
-                        sm:w-[7rem] sm:h-[9rem] sm:ml-[0.5rem]
-                        md:w-[7.5rem] md:h-[10rem] md:ml-[0.75rem]
-                        lg:w-[8rem] lg:h-[11rem] lg:ml-[1rem]">
-                        </div>
-                        <div class="flex flex-col -ml-4">
-
-                            <h1 class="font-[Fahkwang] text-3xl font-bold -ml-[9rem] text-[#FED980]">NOSSA</h1>
-
-                            <h1 class="font-[Fahkwang] text-2xl font-semibold -ml-[2rem]">LOCALIZAÇÃO</h1>
-                            <div class="mt-5">
-
-                                <p class="font-[Fahkwang] text-xs font-bold">CLIQUE AQUI PARA CHEGAR</p>
-
-                            </div>
-                        </div>
-                        <div>
-                            <p class="mt-5 font-[Fahkwang]">PENEDO AL</p>
-                            <img src="./assets/Logotipo-Raquel.svg" class="absolute h-20 w-25">
-                        </div>
-                    </div>
-
-                </button>
-            </a>
-
-
-            <!--Localização PROPRIÁ-->
-            <a href="https://maps.app.goo.gl/h5vckKFQfZZTkDvy6" target="_blank" class="link">
-                <button class="bg-gradient-to-b from-[#C17D80] to-[#724C4E] hover:from-[#D99A9D] hover:to-[#8C5E60] shadow-lg rounded-lg h-[8.4rem] w-[22rem] ml-4 mr-4
-                sm:h-[9rem] sm:w-[24rem] sm:ml-6 sm:mr-6 md:h-[10rem] md:w-[26rem] md:ml-8 md:mr-8 lg:h-[11rem] lg:w-[28rem] lg:ml-10 lg:mr-10">
-                    <div class="flex justify-around">
-                        <div>
-                            <h1 class="font-[Fahkwang] text-3xl font-bold text-[#FED980] -ml-[6rem]">NOSSA</h1>
-                            <h1 class="font-[Fahkwang] text-2xl font-semibold ml-3">LOCALIZAÇÃO</h1>
-                            <p class="font-[Fahkwang] text-xs mt-3 font-bold">CLIQUE AQUI PARA CHEGAR</p>
-                        </div>
-                        <div class="flex justify-around">
-                            <div>
-                                <p class="font-[Fahkwang] absolute mt-5">PROPRIÁ-SE</p>
-                                <img src="./assets/Logotipo-Raquel.svg" class="h-20 w-25 -mr-[2rem] mt-12 absolute">
-                            </div>
-                            <div>
-                                <img src="./assets/raquel-botao-localizacao-propria.svg" class="w-[7.5rem] h-[8.4rem] ml-[3.5rem]
-                                sm:w-[8rem] sm:h-[9.5rem] sm:ml-[4rem]
-                                md:w-[8.5rem] md:h-[10rem] md:ml-[5rem]
-                                lg:w-[9rem] lg:h-[11rem] lg:ml-[6rem]">
-                            </div>
-                        </div>
-                    </div>
-                </button>
-            </a>
-
-
-            <!---Botões e email-->
-            <div class="flex justify-center items-center gap-5 mt-5">
-                <!--Tiktok-->
-                <a href="https://www.tiktok.com/@raquelpaulina.adv" target="_blank">
-                    <img src="assets/TikTok.svg" />
-                </a>
-                <!--Instagram-->
-                <a href="https://www.instagram.com/raquelpaulina.adv/" target="_blank">
-                    <img src="assets/Instagram.svg" />
-                </a>
-                <!--Email-->
-                <a href="mailto:raquelpaulinaadv@gmail.com" class="font-[Fahkwang]" target="_blank">
-                    <p>
-                        Email: Raquelpaulinaadv@gmail.com
-                    </p>
-                </a>
-            </div>
-        </section>
-
-        <footer class="flex justify-center items-center mt-[9rem]">
-            <img src="./assets/Logotipo-rp.svg" class="h-[6rem] md:h-[10rem]">
-        </footer>
-
-    </div><!--Container-->
+        </div>
+    </div>
 
 </body>
 
