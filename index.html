@@ -7,6 +7,12 @@
 
 
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; }
+      </style>
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Sarala:wght@400;700&display=swap" rel="stylesheet">
@@ -14,134 +20,147 @@
 </head>
 
 
-<body class="relative min-h-screen min-w-screen bg-gradient-to-b from-[#50393A] to-[#E59497] text-[#F9F9F9] bg-cover bg-no-repeat bg-top">
-    <div class="min-h-screen xl:bg-[url('./assets/faixa-raquel.svg')] xl:bg-repeat-y xl:bg-left xl:bg-fixed">
-        <div class="min-h-screen xl:bg-[url('./assets/faixa-raquel.svg')] xl:bg-repeat-y xl:bg-right xl:bg-fixed">
-            <div class="min-h-screen flex flex-col items-center justify-center">
+<body class="relative min-h-screen w-full overflow-x-hidden bg-gradient-to-b from-[#50393A] to-[#E59497] bg-cover bg-no-repeat bg-top ">
 
-                <header class="bg-gradient-to-b from-[#7F5254] to-[#E59497] shadow-[#E59497] 
-                lg:w-[60rem] lg:mt-[4rem] lg:rounded-xl lg:shadow-md lg:shadow-[#E59497]
-                2xl:w-[75rem]">
-                    <div class="flex items-center justify-center gap-[6px]">
+   
+
+    <!--Container-->    
+    <div class="min-h-screen flex flex-col items-center justify-center text-[#F9F9F9]">
+
+            <header class="mx-auto flex items-center justify-center 
+            bg-gradient-to-b from-[#7F5254] to-[#E59497] 
+            shadow-[#E59497] 
+            w-full max-w-[27.5rem] h-[13.2rem]
+            md:max-w-[50rem] md:h-[16rem]
+            lg:max-w-[80rem] lg:h-[15.3rem] lg:mt-[4rem] lg:rounded-xl lg:shadow-md lg:shadow-[#E59497]
+            2xl:w-[75rem]">
+                    <div class="flex items-center justify-center 
+                    gap-2 w-full px-4">
                         <!--Logo desktop-->
                         <img src="./assets/Logotipo-Raquel.svg" class="hidden lg:block h-[15rem] mt-[2rem]">
 
                         <img src ='./assets/raquel-foto-de-perfil.svg' alt="Foto de Perfil"
-                        class="w-[13.5rem] h-[12.8rem] mt-[1.5rem]
-                        sm:w-[14rem] sm:h-full sm:mt-[1rem]
-                        md:w-[15rem] md:h-full md:mt-[1.5rem]
-                        lg:w-[16.5rem] lg:h-full lg:mt-[3rem]">
-                        <div class="flex flex-col items-center justify-center">
-                            <img src="./assets/Logotipo-Raquel.svg" class="mt-[2rem] h-[6rem] md:h-[9rem] lg:hidden">
+                        class="w-[12rem] h-[12.8rem] mt-6
+                        sm:w-[14rem] sm:h-[14rem] 
+                        md:w-[15rem] md:h-[15rem] 
+                        lg:w-[16.5rem] lg:h-[16.5rem] min-w-screen object-cover rounded-ful">
+
+                        <div class="flex flex-col items-center justify-center px-2">
+                            <img src="./assets/Logotipo-Raquel.svg" class="mt-4 h-[6rem] md:h-[9rem] lg:hidden min-w-screen h-auto">
                             <a href="https://wa.me/5579996044009?text=Olá%20Dra.%20Raquel%20Paulina!%0AGostaria%20de%20Agendar%20um%20Atendimento" 
                             target="_blank" class="link">
-                                <button class="flex items-center justify-center font-[Fahkwang] font-light text-xs text-white mt-[1rem] mb-[0.5rem]
-                                sm:text-sm sm:mt-[1rem] sm:mb-[1rem]
-                                md:text-sm  md:mt-[1rem] md:mb-[2rem]
+                                <button class="font-[Fahkwang]
+                                mt-4 mb-2 font-light text-xs 
+                                sm:text-sm 
+                                md:text-sm 
                                 lg:hidden">
                                 CLIQUE PARA CONHECER
                                 </button>
                             </a>
                         </div>
+                        
                         <!--Texto Desktop-->
-                        <p class="hidden 2xl:hidden lg:block font-[Fahkwang] font-medium text-medium font-semibold mt-[2rem] ml-[1rem]">
-                            Mais Que Advocacia, Compromisso Em Cada
-                            Detalhe Na Jornada Jurídica De Transformar <br> Vidas.
-                        </p>
-
-                        <div class="flex flex-col">
-                            <!--Texto 2xl-->
-                            <p class="hidden 2xl:block font-[Fahkwang] font-light text-[1.3rem] mt-[2rem] mr-[1rem]">
-                                Mais Que Advocacia, Compromisso Em Cada <br>Detalhe Na Jornada Jurídica De Transformar
-                            </p>
-                            <p class="hidden 2xl:block font-[Fahkwang] font-light text-[1.3rem] pl-[12rem]">Vidas.
+                        <div class="hidden lg:flex flex-col ml-4 max-w-[28rem]">
+                            <p class="hidden 2xl:hidden lg:block font-[Fahkwang] font-medium text-medium font-semibold mt-[2rem] ml-[1rem]">
+                                Mais Que Advocacia, Compromisso Em Cada
+                                Detalhe Na Jornada Jurídica De Transformar <br> Vidas.
                             </p>
 
-                        </div>
+                            <div class="hidden 2xl:block">
+                                <!--Texto 2xl-->
+                                <p class="font-[Fahkwang] font-light text-[1.3rem] mt-[2rem] mr-[1rem]">
+                                    Mais Que Advocacia, Compromisso Em Cada <br>Detalhe Na Jornada Jurídica De Transformar
+                                </p>
+                                <p class="font-[Fahkwang] font-light text-[1.3rem] pl-[12rem]">Vidas.
+                                </p>
+
+                            </div>
+                     </div>
 
                     </div>
-                </header>
+            </header>
 
-                <section class="flex flex-col justify-center items-center
+            <section class="flex flex-col justify-center items-center
+                w-full max-w-[27.5rem] px-4
                 gap-5
-                mt-[1rem]
-                ml-[1rem]
-                mr-[1rem]
-                md:mt-[2rem]
-                lg:grid lg:grid-cols-2 lg:place-items-center
-                overflow-hidden">
+                mt-4
+                md:mt-8
+                lg:grid lg:grid-cols-2 lg:place-items-center">
 
-                    <p class="flex items-center justify-center font-[Fahkwang] font-medium text-center block md:hidden lg:hidden">
-                        Mais que advocacia, compromisso <br>
-                        em cada detalhe na jornada jurídica <br>
+                    <p class="font-[Fahkwang] font-light text-center block md:hidden lg:hidden">
+                        Mais que advocacia, compromisso<br>
+                        em cada detalhe na jornada jurídica<br>
                         de transformar vidas.
                     </p>
 
-                    <p class="hidden md:flex items-center justify-center font-[Fahkwang] font-medium text-center text-lg lg:hidden">
+                    <p class="hidden md:flex font-[Fahkwang] font-medium text-center text-lg lg:hidden">
                         Mais que advocacia, compromisso
-                        em cada detalhe na jornada jurídica
+                        em cada detalhe<br>na jornada jurídica
                         de transformar vidas.
                     </p>
 
 
                     <!--WhatsApp PENEDO (Teste)-->
-                    <div class="flex justify-center items-center mx-auto">
                         <a href="https://wa.me/5579996044009?text=Olá%20Dra.%20Raquel%20Paulina!%0AGostaria%20de%20Agendar%20um%20Atendimento" 
-                        target="_blank" class="link">
-                            <img  src="./assets/botao-whatsapp-penedo.svg" class="block w-full h-[8rem] sm:h-[6rem]
-                        md:h-[12rem] lg:h-[14rem] object-cover">
-                        </a>
-                    </div>
-
-                    <!--WhatsApp PROPRIÁ-->
-                    <div class="flex justify-center items-center">
-                        <a href="https://wa.me/557988159595?text=Olá%20Dra.%20Raquel%20Paulina!%0AGostaria%20de%20Agendar%20um%20Atendimento" 
-                        target="_blank" class="link">
+                        target="_blank" class="link min-w-screen">
                             <img  src="./assets/botao-whatsapp-penedo.svg" class="block w-full h-[8rem] sm:h-[6rem]
                             md:h-[12rem] lg:h-[14rem] object-cover">
                         </a>
-                    </div>
+                    
+
+                    <!--WhatsApp PROPRIÁ-->
+                    
+                        <a href="https://wa.me/557988159595?text=Olá%20Dra.%20Raquel%20Paulina!%0AGostaria%20de%20Agendar%20um%20Atendimento" 
+                        target="_blank" class="link min-w-screen">
+                            <img  src="./assets/botao-whatsapp-penedo.svg" class="block w-full h-[8rem] sm:h-[6rem]
+                            md:h-[12rem] lg:h-[14rem] object-cover">
+                        </a>
+                    
 
                     <!--Localização PENEDO-->
-                    <div class="flex justify-center items-center">
-                        <a href="https://maps.app.goo.gl/rDQ9M6P3wDcQLMEJ6" target="_blank" class="link">
+                    
+                        <a href="https://maps.app.goo.gl/rDQ9M6P3wDcQLMEJ6" target="_blank" class="link min-w-screen">
                         <img  src="./assets/botao-localizacao-penedo.svg" class="block w-full h-[10rem] sm:h-[8rem]
                         md:h-[15rem]  lg:h-[17.2rem] object-cover">
                         </a>
-                    </div>
+                    
 
 
                     <!--Localização PROPRIÁ-->
-                    <div class="flex justify-center items-center">
-                        <a href="https://maps.app.goo.gl/h5vckKFQfZZTkDvy6" target="_blank" class="link">
+                    
+                        <a href="https://maps.app.goo.gl/h5vckKFQfZZTkDvy6" target="_blank" class="link min-w-screen">
                         <img  src="./assets/botao-localizacao-propria.svg" class="block w-full h-[10rem] sm:h-[8rem]
                         md:h-[16rem] lg:h-[18rem] object-cover">
                         </a>
+                    
+                   
+
+                    <!---Botões e email-->
+                    <div class="flex justify-center items-center gap-2 mt-5 ml-2 overflow-hidden">
+                        <!--Tiktok-->
+                        <a href="https://www.tiktok.com/@raquelpaulina.adv" target="_blank" class="link">
+                        <img src="assets/TikTok.svg" class="w-[2.6rem] h-[2.6rem]
+                        "/>
+                        </a>
+                        <!--Instagram-->
+                        <a href="https://www.instagram.com/raquelpaulina.adv/" target="_blank" class="link">
+                        <img src="assets/Instagram.svg" class="w-[2.6rem] h-[2.6rem]"/>
+                        </a>
+                        <!--Email-->
+                        <a href="mailto:raquelpaulinaadv@gmail.com" target="_blank" class="link">
+                        <p class="font-[Fahkwang] font-normal text-xs sm:text-xs md:text-base lg:text-lg">
+                        Email: Raquelpaulinaadv@gmail.com
+                        </p>
+                        </a>
                     </div>
-            </div>
-        </div>
-        <!---Botões e email-->
-        <div class="flex justify-center items-center gap-2 mt-5 ml-2 overflow-hidden">
-            <!--Tiktok-->
-            <a href="https://www.tiktok.com/@raquelpaulina.adv" target="_blank">
-                <img src="assets/TikTok.svg" class="w-[2.6rem] h-[2.6rem]
-                "/>
-            </a>
-            <!--Instagram-->
-            <a href="https://www.instagram.com/raquelpaulina.adv/" target="_blank">
-                <img src="assets/Instagram.svg" class="w-[2.6rem] h-[2.6rem]"/>
-            </a>
-            <!--Email-->
-            <a href="mailto:raquelpaulinaadv@gmail.com" target="_blank">
-                <p class="font-[Fahkwang] font-normal text-xs sm:text-xs md:text-base lg:text-lg">
-                    Email: Raquelpaulinaadv@gmail.com
-                </p>
-            </a>
-        </div>
-    </div>
-    <footer class="flex justify-center items-center mt-[2rem]">
-        <img src="./assets/Logotipo-rp.svg" class="h-[6rem] md:h-[8rem] lg:h-[7.5rem]">
-    </footer>
+        
+        </section> 
+
+        <footer class="flex justify-center items-center mt-8">
+            <img src="./assets/Logotipo-rp.svg" class="h-[6rem] md:h-[8rem] lg:h-[7.5rem]">
+        </footer>
+
+    </div><!--Container NÃO APGAGUEM PFVR SÓ NO FINAL PFVR-->
 
 </body>
 
